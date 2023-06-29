@@ -1,0 +1,31 @@
+@import url('./reset.css');
+@import url('./container.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./howitwork.css');
+@import url('./fruits.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+@import url('./modal.css');
+
+:root {
+  /* Colors */
+  --black-color: #000000;
+  --red-color: #ae1332;
+  --green-color: #a4cb66;
+  --yellow-color: #f5ce13;
+  --white-color: #ffffff;
+
+  /* Fonts */
+  font-family: 'DM Sans', sans-serif;
+
+  color: var(--white-color);
+  background-color: var(--red-color);
+
+  /* GOIT */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
